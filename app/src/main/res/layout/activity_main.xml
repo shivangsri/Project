@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BCC6CC"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Motor Octave Garage"
+        android:textSize="32dp"
+        android:fontFamily="cursive"
+
+        android:textColor="#000000"
+        android:padding="5dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+
+        /><ImageView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:src="@drawable/car2"
+    android:id="@+id/img"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="380dp"
+        android:text="A hub of second hand cars.Do visit our shop drive back with your dream car at low cost.EMI facility is also available at very interest rates.Contact us for more information."
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:fontFamily="cursive"
+        android:paddingLeft="20dp"
+
+
+
+
+        android:layout_alignParentBottom="true"
+
+
+        />
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B-12 VVIP"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:padding="5dp"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9958233190"
+        android:layout_alignParentRight="true"
+        android:padding="5dp"
+        android:textSize="20sp"
+
+        android:layout_above="@+id/phone"/>
+
+</RelativeLayout>
